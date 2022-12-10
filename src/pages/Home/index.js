@@ -13,7 +13,7 @@ function Home() {
             <Col lg={2} xs={1}></Col>
             <Col lg={8} xs={10}>
                 <div className="home-container">
-                home page here
+                lorem ipsum
                 </div>
             </Col>
             <Col lg={2} xs={1}></Col>
