@@ -1,0 +1,11 @@
+.header-container {
+    text-align: center;
+}
+
+.header-subheading {
+    font-size: 1.50vw;
+    font-style: italic;
+    color: #515151;
+    padding: 5px;
+    margin-top: -20px;
+}

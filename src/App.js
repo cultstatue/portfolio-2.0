@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Container,
   Row,
@@ -6,9 +7,14 @@ import {
 } from 'react-bootstrap'
 import './App.css';
 
+// import componenets 
+import Header from "./components/Header"
+import Nav from "./components/Nav"
+import Footer from "./components/Footer"
 
-import Header from "./pages/Header"
+// import pages
 import About from "./pages/About"
+import Resume from "./pages/Resume"
 function App() {
   return (
     <Container>
@@ -18,7 +24,6 @@ function App() {
             <div className="home-container">
 
               <Header></Header> 
-              <About></About>
             </div>
           </Col>
         <Col lg={2} xs={1}></Col>

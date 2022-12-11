@@ -1,8 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import {
-    Container,
-    Row,
-    Col
+    Image
 } from 'react-bootstrap'
 import "./index.css";
 
@@ -11,12 +9,14 @@ function Header() {
       <section>
         <div className="header-container">
 
+
+
           <a href="/">
             <h1>Madeleine Doutt</h1>
           </a>
 
-          <div classname="header-subheading">
-            hihihihihihih
+          <div className="header-subheading">
+            fullstack web development
           </div>
 
         </div>
