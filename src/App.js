@@ -22,8 +22,8 @@ function App() {
         <Col lg={2} xs={1}></Col>
           <Col lg={8} xs={10}>
             <main className="home-container">
-
-              <Header></Header> 
+              <Header></Header>
+              <Nav></Nav> 
             </main>
           </Col>
         <Col lg={2} xs={1}></Col>
