@@ -12,8 +12,7 @@ function Nav() {
         <Container>
             <Row className="navbar">
                 <Col className="d-flex justify-content-center
-                nav-item"
-                >
+                nav-item">
                     <a href="/about">
                         <div>
                             about
