@@ -1,0 +1,7 @@
+.navbar{
+    margin: 5px;
+    padding: 10px;
+    font-family: chicle;
+    font-size: 25px;
+    color: var(--header1);
+}
