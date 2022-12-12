@@ -21,10 +21,28 @@ body {
 h1{
   font-family: Chicle;
   padding: 5px 0px 0px 0px;
-  font-size: 4.75vw;
+  font-size: 100px;
   color: var(--header1);
 }
 
 a:link{
   text-decoration: none;
+}
+
+@media (max-width: 1399px) {
+  h1{
+    font-size: 76px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1{
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 450px) {
+  h1{
+    font-size: 40px;
+  }
 }

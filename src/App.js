@@ -21,10 +21,10 @@ function App() {
       <Row>
         <Col lg={2} xs={1}></Col>
           <Col lg={8} xs={10}>
-            <div className="home-container">
+            <main className="home-container">
 
               <Header></Header> 
-            </div>
+            </main>
           </Col>
         <Col lg={2} xs={1}></Col>
       </Row>
