@@ -5,7 +5,7 @@
 .header-subheading {
     font-size: 25px;
     font-style: italic;
-    color: #515151;
+    color: var(--bodytext);
     padding: 5px;
     margin-top: -20px;
 }

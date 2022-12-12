@@ -3,5 +3,15 @@
     padding: 10px;
     font-family: chicle;
     font-size: 25px;
-    color: var(--header1);
+    color: var(--background);
+}
+.nav-item{
+    text-decoration: none;
+    background-color: var(--maincolor1);
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.nav-item:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
 }

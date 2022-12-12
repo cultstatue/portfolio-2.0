@@ -11,20 +11,44 @@ function Nav() {
 
         <Container>
             <Row className="navbar">
-                <Col className="d-flex justify-content-center">
-                    about
+                <Col className="d-flex justify-content-center
+                nav-item"
+                >
+                    <a href="/about">
+                        <div>
+                            about
+                        </div>
+                    </a>
                 </Col>
 
-                <Col className="d-flex justify-content-center">
-                    resume
+                <Col className="d-flex justify-content-center 
+                nav-item"
+                >
+                    <a href="/resume">
+                        <div>
+                            resume
+                        </div>
+                    </a>
                 </Col>
 
-                <Col className="d-flex justify-content-center">
-                    work
+                <Col className="d-flex justify-content-center
+                nav-item"
+                >
+                    <a href="/">
+                        <div>
+                            work
+                        </div>
+                    </a>
                 </Col>
 
-                <Col className="d-flex justify-content-center">
-                    contact
+                <Col className="d-flex justify-content-center
+                nav-item"
+                >
+                    <a href="mailto:madeleinedoutt@gmail.com">
+                        <div>
+                            contact
+                        </div>
+                    </a>
                 </Col>
             </Row>
             
