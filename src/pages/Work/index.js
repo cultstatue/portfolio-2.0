@@ -2,13 +2,24 @@ import React from "react";
 import {
     Container,
     Row,
-    Col
+    Col,
+    Image
 } from 'react-bootstrap'
 
 function Work() {
     return (
         <section>
-            Work
+            <Container>
+                <Row>
+                    <Col>
+                    box one
+                    </Col>
+
+                    <Col>
+                    Box Two
+                    </Col>
+                </Row>
+            </Container>
         </section>
     );
 }
