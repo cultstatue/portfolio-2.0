@@ -1,0 +1,27 @@
+h2{
+    font-family: chicle;
+    font-size: 45px;
+    color: var(--maincolor1);
+}
+h3{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: -15px;
+    color: var(--maincolor1);
+}
+
+.work-element{
+    margin:10px;
+    padding: 10px;
+    border-top: 3px dashed var(--maincolor1);
+}
+
+.work-img{
+    width: 300px;
+}
+
+.work-content{
+    font-size: 20px;
+    color: var(--bodytext);
+    padding-bottom: 15px;
+}
