@@ -29,7 +29,7 @@ function Work() {
                         </div>
                         <div className="d-grid">
                             <Button className="git-button">
-                                Github button
+                                Visit this project on Github
                             </Button>
                         </div>
                     </Col>  

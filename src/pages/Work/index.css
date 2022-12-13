@@ -25,3 +25,25 @@ h3{
     color: var(--bodytext);
     padding-bottom: 15px;
 }
+
+.git-button{
+    background-color: var(--maincolor1);
+    font-size: 18px;
+}
+
+.git-button:hover{
+    background-color: var(--maincolor1);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.45);
+}
+
+@media (max-width: 450px) {
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .work-content{
+        font-size: 15px;
+    }
+}
