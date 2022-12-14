@@ -1,3 +1,8 @@
+.navbar-container{
+    background-color: var(--mainbackground);
+    border-radius: 3px;
+}
+
 .navbar{
     margin: 5px;
     padding: 10px;

@@ -9,7 +9,7 @@ import "./index.css";
 function Nav() {
     return(
 
-        <Container>
+        <Container className="sticky-top navbar-container">
             <Row className="navbar">
                 <Col className="d-flex justify-content-center
                 nav-item">
