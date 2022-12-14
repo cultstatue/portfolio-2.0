@@ -15,7 +15,7 @@ function Work() {
             name: "Petyard",
             img: "petyard.png",
             subtitle: "MERN stack, React-Bootstrap",
-            desc: "lorem ipsumgdfdgdf gfdsgfds ",
+            desc: "Social media application where users can share their pets and interact with other users.",
             github: "https://github.com/cultstatue/petyard"
 
         },
@@ -23,7 +23,7 @@ function Work() {
             name: "Bragging Rights",
             img: "bragging-rights.png",
             subtitle: "mySQL, Node.js, Express, Bootstrap",
-            desc: "lorem ipsumgdfdgdf gfdsgfds ",
+            desc: "Full stack application where users can share and brag about their achievements in videogames.",
             github: "https://github.com/cultstatue/bragging-rights"
 
         },
@@ -31,7 +31,7 @@ function Work() {
             name: "Ready?",
             img: "ready.png",
             subtitle: "Javascript, server-side APIs, Bulma",
-            desc: "lorem ipsumgdfdgdf gfdsgfds ",
+            desc: "A front end website designed to help users plan outings by providing both Ticket Master events and a weather forecast for a specefied USA zip code.",
             github: "https://github.com/cultstatue/ready-s"
 
         },
@@ -39,7 +39,7 @@ function Work() {
             name: "Tech Blog",
             img: "techblog.png",
             subtitle: "mySQL, Node.js, Express, Bootstrap",
-            desc: "lorem ipsumgdfdgdf gfdsgfds ",
+            desc: "A simple full stack blogging platform where users can sign up, make posts and comment on other user's posts.",
             github: "https://github.com/cultstatue/tech-blog"
 
         },
@@ -47,7 +47,7 @@ function Work() {
             name: "Book Search Engine",
             img: "booksearch.png",
             subtitle: "MERN stack, Bootstrap",
-            desc: "lorem ipsumgdfdgdf gfdsgfds ",
+            desc: "An application utilizing Google books search API, where users can sign up, search for books, and save books to their own lists to revisit.",
             github: "https://github.com/cultstatue/book-search-engine"
 
         },
@@ -55,7 +55,7 @@ function Work() {
             name: "README Generator",
             img: "readmegen.png",
             subtitle: "Node.js, Inquirer",
-            desc: "lorem ipsumgdfdgdf gfdsgfds ",
+            desc: "A Node.js command line application where users can generate custom READme.mds for their projects.",
             github: "https://github.com/cultstatue/ReadMe-Generator"
 
         }
