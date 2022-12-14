@@ -34,6 +34,30 @@ function Work() {
             desc: "lorem ipsumgdfdgdf gfdsgfds ",
             github: "https://github.com/cultstatue/ready-s"
 
+        },
+        {
+            name: "Tech Blog",
+            img: "techblog.png",
+            subtitle: "mySQL, Node.js, Express, Bootstrap",
+            desc: "lorem ipsumgdfdgdf gfdsgfds ",
+            github: "https://github.com/cultstatue/tech-blog"
+
+        },
+        {
+            name: "Book Search Engine",
+            img: "booksearch.png",
+            subtitle: "MERN stack, Bootstrap",
+            desc: "lorem ipsumgdfdgdf gfdsgfds ",
+            github: "https://github.com/cultstatue/book-search-engine"
+
+        },
+        {
+            name: "README Generator",
+            img: "readmegen.png",
+            subtitle: "Node.js, Inquirer",
+            desc: "lorem ipsumgdfdgdf gfdsgfds ",
+            github: "https://github.com/cultstatue/ReadMe-Generator"
+
         }
     ]
 
@@ -42,7 +66,7 @@ function Work() {
             <Container>
                 {work.map((project) => (
                     <Row className="work-element">
-                        <Col xxl={6} sm={12}>
+                        <Col xxl={6} xsm={12}>
                             <Image
                             src={require(`../../assets/screenshots/${project.img}`)}
                             fluid
@@ -52,7 +76,7 @@ function Work() {
                             ></Image>
                         </Col>
 
-                        <Col xxl={6} sm={12}>
+                        <Col xxl={6} xsm={12}>
                         <h2>{project.name}</h2>
                         <h3>{project.subtitle}</h3>
                         <div className="work-content">
@@ -66,36 +90,11 @@ function Work() {
                                     Visit this project on Github
                                 </Button>
                             </div>
-                            </a>
-                        
-                            
+                            </a>    
                         </div>
                         </Col>
                     </Row>  
                 ))}
-
-                <Row className="work-element">
-                    <Col xxl={6} sm={12}>
-                        <Image
-                        src={require(`../../assets/test-header.png`)}
-                        fluid
-                        className="work-img"
-                        ></Image>
-                    </Col>
-
-                    <Col xxl={6} sm={12}>
-                        <h2>Work Title</h2>
-                        <h3>subtitle(madewith will go here)</h3>
-                        <div className="work-content">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis sem id metus tempor dictum. Curabitur ut diam a ligula pretium ultricies sit amet ut enim. Nam accumsan magna ante, non imperdiet odio viverra non.
-                        </div>
-                        <div className="d-grid">
-                            <Button className="git-button">
-                                Visit this project on Github
-                            </Button>
-                        </div>
-                    </Col>  
-                </Row>
             </Container>
         </section>
     );
