@@ -32,7 +32,7 @@ function Header() {
               </a>
 
               <div className="header-subheading">
-                fullstack web development
+                full stack web development
               </div>
             </Col>
           </Row>

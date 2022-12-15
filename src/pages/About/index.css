@@ -1,0 +1,19 @@
+.about-img{
+    width: 350px;
+}
+
+.about{
+    font-size: 17px;
+    color: var(--bodytext);
+    
+}
+
+.about-container{
+    padding:20px;
+}
+
+@media (max-width: 450px) {
+    .about{
+        font-size: 15px;     
+    }
+}

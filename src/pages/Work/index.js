@@ -32,7 +32,7 @@ function Work() {
             img: "ready.png",
             subtitle: "Javascript, server-side APIs, Bulma",
             desc: "A front end website designed to help users plan outings by providing both Ticket Master events and a weather forecast for a specefied USA zip code.",
-            github: "https://github.com/cultstatue/ready-s"
+            github: "https://github.com/cultstatue/ready-"
 
         },
         {
