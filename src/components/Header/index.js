@@ -16,7 +16,7 @@ function Header() {
 
             <Col>
               <div className="d-flex justify-content-center">
-              <a href="/">
+              <a href="https://cultstatue.github.io/portfolio-2.0/#/">
                   <Image
                     src={require(`../../assets/heart-on-fire_2764-fe0f-200d-1f525.png`)}
                     fluid
@@ -27,7 +27,7 @@ function Header() {
             </Col>
 
             <Col xl={8} className="header-container">
-              <a href="/">
+              <a href="https://cultstatue.github.io/portfolio-2.0/#/">
                 <h1>Madeleine Doutt</h1>
               </a>
 
