@@ -1,0 +1,29 @@
+.navbar-container{
+    background-color: var(--mainbackground);
+    border-radius: 3px;
+}
+
+.navbar{
+    margin: 5px;
+    padding: 10px;
+    font-family: chicle;
+    font-size: 25px;
+    color: var(--background);
+}
+.nav-item{
+    text-decoration: none;
+    background-color: var(--maincolor1);
+    margin: 2px;
+    border-radius: 10px;    
+}
+
+.nav-item:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.45);
+}
+
+@media (max-width: 450px) {
+    .navbar{
+        font-size: 15px;
+        margin:2px;
+    }
+}

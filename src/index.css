@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+
 :root {
-  --background: #FFE6F4;
+  --background: #fdebf4;
+  --mainbackground: #FAF9FA;
+  --maincolor1: #CA2323;
+  --navbar: #fff1f9;
+  --subtitletext: #515151
+  --bodytext: #4A3741;
 }
 
 body {
@@ -7,4 +14,40 @@ body {
   background-color: var(--background);
 }
 
+.home-container{
+  background-color: var(--mainbackground);
+  padding: 5px;
+  margin: 20px 0px 75px 0px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 2px 1px var(--maincolor1);
+}
 
+h1{
+  font-family: Chicle;
+  padding: 5px 0px 0px 0px;
+  font-size: 100px;
+  color: var(--maincolor1);
+}
+
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 1399px) {
+  h1{
+    font-size: 76px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1{
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 450px) {
+  h1{
+    font-size: 40px;
+  }
+}

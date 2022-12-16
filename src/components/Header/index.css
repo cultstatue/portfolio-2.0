@@ -1,0 +1,42 @@
+.header-container {
+    text-align: center;
+}
+
+.header-subheading {
+    font-size: 25px;
+    font-style: italic;
+    color: var(--subtitletext);
+    padding: 5px;
+    margin-top: -20px;
+}
+
+.header-img{
+    display: "block";
+    width: 145px;
+}
+
+@media (max-width: 1399px) {
+    .header-img{
+        width: 125px;
+    }
+
+    .header-subheading {
+        font-size: 23px;
+    }
+}
+  
+@media (max-width: 767px) {
+    .header-subheading {
+        font-size: 20px;
+    }
+}
+  
+@media (max-width: 450px) {
+    .header-img{
+        width: 100px;
+    }
+
+    .header-subheading {
+        font-size: 15px;
+    }
+}
