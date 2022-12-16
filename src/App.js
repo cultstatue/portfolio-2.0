@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Routes, Route, HashRouter } from "react-router-dom";
 import {
   Container,
   Row,
@@ -26,11 +26,13 @@ function App() {
               <main className="home-container">
                 <Header/>
                 <Nav/>
-                <Routes>
-                    <Route path="/" element={<Work />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/resume" element={<Resume />} />
-                </Routes>
+                <HashRouter>
+                  <Routes>
+                      <Route path="/" element={<Work />} />
+                      <Route path="/about" element={<About />} />
+                      <Route path="/resume" element={<Resume />} />
+                  </Routes>
+                </HashRouter>
                 <Footer></Footer>
               </main>
             </Col>
