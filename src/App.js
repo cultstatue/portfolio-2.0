@@ -18,7 +18,7 @@ import Resume from "./pages/Resume"
 import Work from "./pages/Work"
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Container>
         <Row>
           <Col lg={2} xs={1}></Col>
@@ -26,20 +26,20 @@ function App() {
               <main className="home-container">
                 <Header/>
                 <Nav/>
-                <HashRouter>
+                
                   <Routes>
                       <Route path="/" element={<Work />} />
                       <Route path="/about" element={<About />} />
                       <Route path="/resume" element={<Resume />} />
                   </Routes>
-                </HashRouter>
+                
                 <Footer></Footer>
               </main>
             </Col>
           <Col lg={2} xs={1}></Col>
         </Row>
       </Container>
-    </Router>
+    </HashRouter>
   );
 }
 
