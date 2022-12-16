@@ -13,7 +13,7 @@ function Nav() {
             <Row className="navbar">
                 <Col className="d-flex justify-content-center
                 nav-item">
-                    <a href="/about">
+                    <a href="https://cultstatue.github.io/portfolio-2.0/#/about">
                         <div>
                             about
                         </div>
@@ -23,7 +23,7 @@ function Nav() {
                 <Col className="d-flex justify-content-center 
                 nav-item"
                 >
-                    <a href="/resume">
+                    <a href="https://cultstatue.github.io/portfolio-2.0/#/resume">
                         <div>
                             resume
                         </div>
@@ -33,7 +33,7 @@ function Nav() {
                 <Col className="d-flex justify-content-center
                 nav-item"
                 >
-                    <a href="/">
+                    <a href="https://cultstatue.github.io/portfolio-2.0/#/">
                         <div>
                             work
                         </div>

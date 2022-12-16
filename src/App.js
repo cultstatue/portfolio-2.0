@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Container,
   Row,
@@ -27,9 +27,9 @@ function App() {
                 <Header/>
                 <Nav/>
                 <Routes>
-                    <Route path="/portfolio-2.0" element={<Work />} />
-                    <Route path="/portfolio-2.0/about" element={<About />} />
-                    <Route path="/portfolio-2.0/resume" element={<Resume />} />
+                    <Route exact path="/" element={<Work />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/resume" element={<Resume />} />
                 </Routes>
                 <Footer></Footer>
               </main>
