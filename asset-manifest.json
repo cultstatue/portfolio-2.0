@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-2.0/static/css/main.1e296efe.css",
-    "main.js": "/portfolio-2.0/static/js/main.22b60aad.js",
+    "main.js": "/portfolio-2.0/static/js/main.22355470.js",
     "static/js/787.b597a222.chunk.js": "/portfolio-2.0/static/js/787.b597a222.chunk.js",
     "static/media/booksearch.png": "/portfolio-2.0/static/media/booksearch.5f1deacc5a46ebaacf54.png",
     "static/media/petyard.png": "/portfolio-2.0/static/media/petyard.db412d1da39d1c95c85b.png",
@@ -13,11 +13,11 @@
     "static/media/Madeleine Doutt Resume 2022.pdf": "/portfolio-2.0/static/media/Madeleine Doutt Resume 2022.08df211da66a9a749348.pdf",
     "index.html": "/portfolio-2.0/index.html",
     "main.1e296efe.css.map": "/portfolio-2.0/static/css/main.1e296efe.css.map",
-    "main.22b60aad.js.map": "/portfolio-2.0/static/js/main.22b60aad.js.map",
+    "main.22355470.js.map": "/portfolio-2.0/static/js/main.22355470.js.map",
     "787.b597a222.chunk.js.map": "/portfolio-2.0/static/js/787.b597a222.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e296efe.css",
-    "static/js/main.22b60aad.js"
+    "static/js/main.22355470.js"
   ]
 }
