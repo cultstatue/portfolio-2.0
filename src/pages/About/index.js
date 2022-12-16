@@ -14,11 +14,11 @@ function About() {
                 <Row className="about-row">
                     <Col md={12}>
                     <div className="d-flex justify-content-center">
-                    <Image
+                    {/* <Image
                     src={require(`../../assets/test-header.png`)}
                     fluid
                     className="about-img"
-                    ></Image>
+                    ></Image> */}
                     </div>
                     </Col>
 

@@ -18,7 +18,7 @@ function Header() {
               <div className="d-flex justify-content-center">
               <a href="/">
                   <Image
-                    src={require(`../../assets/test-header.png`)}
+                    src={require(`../../assets/heart-on-fire_2764-fe0f-200d-1f525.png`)}
                     fluid
                     className="header-img"
                   ></Image>
