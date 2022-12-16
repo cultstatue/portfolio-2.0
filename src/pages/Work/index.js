@@ -62,7 +62,7 @@ function Work() {
     ]
 
     return (
-        <section>
+        <section id ="work">
             <Container>
                 {work.map((project) => (
                     <Row className="work-element">

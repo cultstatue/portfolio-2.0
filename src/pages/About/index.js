@@ -11,7 +11,7 @@ function About() {
     return (
         <section id="about">
             <Container>
-                <Row>
+                <Row className="about-row">
                     <Col md={12}>
                     <div className="d-flex justify-content-center">
                     <Image
