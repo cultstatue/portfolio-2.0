@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Routes, Route, HashRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Container,
   Row,
@@ -18,7 +18,7 @@ import Resume from "./pages/Resume"
 import Work from "./pages/Work"
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <Container>
         <Row>
           <Col lg={2} xs={1}></Col>
@@ -26,20 +26,18 @@ function App() {
               <main className="home-container">
                 <Header/>
                 <Nav/>
-                
-                  <Routes>
-                      <Route path="/" element={<Work />} />
-                      <Route path="/about" element={<About />} />
-                      <Route path="/resume" element={<Resume />} />
-                  </Routes>
-                
+                <Routes>
+                    <Route path="/portfolio-2.0" element={<Work />} />
+                    <Route path="/portfolio-2.0/about" element={<About />} />
+                    <Route path="/portfolio-2.0/resume" element={<Resume />} />
+                </Routes>
                 <Footer></Footer>
               </main>
             </Col>
           <Col lg={2} xs={1}></Col>
         </Row>
       </Container>
-    </HashRouter>
+    </Router>
   );
 }
 
