@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-2.0/static/css/main.1e296efe.css",
-    "main.js": "/portfolio-2.0/static/js/main.ae1881ff.js",
-    "static/js/787.941815fa.chunk.js": "/portfolio-2.0/static/js/787.941815fa.chunk.js",
+    "main.js": "/portfolio-2.0/static/js/main.22b60aad.js",
+    "static/js/787.b597a222.chunk.js": "/portfolio-2.0/static/js/787.b597a222.chunk.js",
     "static/media/booksearch.png": "/portfolio-2.0/static/media/booksearch.5f1deacc5a46ebaacf54.png",
     "static/media/petyard.png": "/portfolio-2.0/static/media/petyard.db412d1da39d1c95c85b.png",
     "static/media/bragging-rights.png": "/portfolio-2.0/static/media/bragging-rights.0f62e36e67939c2610ce.png",
@@ -13,11 +13,11 @@
     "static/media/Madeleine Doutt Resume 2022.pdf": "/portfolio-2.0/static/media/Madeleine Doutt Resume 2022.08df211da66a9a749348.pdf",
     "index.html": "/portfolio-2.0/index.html",
     "main.1e296efe.css.map": "/portfolio-2.0/static/css/main.1e296efe.css.map",
-    "main.ae1881ff.js.map": "/portfolio-2.0/static/js/main.ae1881ff.js.map",
-    "787.941815fa.chunk.js.map": "/portfolio-2.0/static/js/787.941815fa.chunk.js.map"
+    "main.22b60aad.js.map": "/portfolio-2.0/static/js/main.22b60aad.js.map",
+    "787.b597a222.chunk.js.map": "/portfolio-2.0/static/js/787.b597a222.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e296efe.css",
-    "static/js/main.ae1881ff.js"
+    "static/js/main.22b60aad.js"
   ]
 }
