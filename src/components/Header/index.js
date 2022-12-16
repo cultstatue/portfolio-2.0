@@ -34,6 +34,16 @@ function Header() {
               <div className="header-subheading">
                 full stack web development
               </div>
+              <div classname="icons-container">
+                <a href="https://github.com/cultstatue"><Image
+                src={require('../../assets/icons/icons8-github-30.png')}
+                ></Image></a>
+                <a href="https://www.linkedin.com/in/madeleine-doutt-b49bb2239/"><Image
+                src={require('../../assets/icons/icons8-linkedin-circled-30.png')}></Image></a>
+                <a href="https://twitter.com/cultstatue"><Image
+                src={require('../../assets/icons/icons8-twitter-30.png')}></Image></a>
+
+              </div>
             </Col>
           </Row>
         </Container>
