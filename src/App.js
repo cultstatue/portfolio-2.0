@@ -31,6 +31,7 @@ function App() {
                     <Route path="/about" element={<About />} />
                     <Route path="/resume" element={<Resume />} />
                 </Routes>
+                <Footer></Footer>
               </main>
             </Col>
           <Col lg={2} xs={1}></Col>
