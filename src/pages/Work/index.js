@@ -23,7 +23,7 @@ function Work() {
             name: "Bragging Rights",
             img: "bragging-rights.png",
             subtitle: "mySQL, Node.js, Express, Bootstrap",
-            desc: "Full stack application where users can share and brag about their achievements in videogames.",
+            desc: "Full stack application where users can share and brag about their achievements in video games.",
             github: "https://github.com/cultstatue/bragging-rights"
 
         },
@@ -31,7 +31,7 @@ function Work() {
             name: "Ready?",
             img: "ready.png",
             subtitle: "Javascript, server-side APIs, Bulma",
-            desc: "A front end website designed to help users plan outings by providing both Ticket Master events and a weather forecast for a specefied USA zip code.",
+            desc: "A front end website designed to help users plan outings by providing both Ticket Master events and a weather forecast for a A front end website designed to help users plan outings by providing both Ticket Master events and a weather forecast for a specefied USA zip code. USA zip code.",
             github: "https://github.com/cultstatue/ready-"
 
         },
